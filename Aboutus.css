@@ -1,0 +1,19 @@
+.mission-value-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Spacing between the sections */
+}
+
+#about, #mission, #value {
+    flex: 1; /* Equal width for both sections */
+    margin: 20px 50px 0px 50px; /* Add some spacing around each section */
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(58, 53, 33);
+    border: 10px;
+}
+
+#about {
+    margin-top: 80px;
+}
+

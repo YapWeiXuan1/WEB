@@ -1,0 +1,256 @@
+@charset "utf-8";
+html{
+    background-image: url(../others/wood\ background.jpg);
+    max-width: 1024px;
+    max-height: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(50,50,50);
+}
+
+.headtitle{
+    display:block;
+    float: left;
+    width: 200px;
+    margin: 0;
+    position:relative;
+    top: 50px;
+    font-size: 35px;
+    font-weight: bolder;
+    color: palegoldenrod;
+}
+
+body {
+	width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    background-color: rgb(153, 149, 87);
+
+}
+
+body > header > img.logo {
+    display: block;
+    float: left;
+    width: 160px;
+}
+
+.search_container {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 90px;
+    width: 350px;
+}
+
+.search_button {
+    width: 33.6px;
+    height: 33.6px;
+    margin-top: 0px;
+    border: none;
+    padding: 1px;
+    cursor: pointer;
+    position: relative;
+    top: 11px;
+
+}
+
+.search_button > img {
+    width: 32px;
+    height: 32px;
+}
+
+input.searchbar {
+    padding: 8px;
+    font-size: 15px;
+    height: inherit;
+    margin: inherit;
+    width: 200px;
+    border: none;
+}
+
+button.cart {
+    display: block;
+    float: right;
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button.cart > img {
+    width: 30px;
+    height: 30px;
+}
+
+/*navigation bar*/
+body > div.nav_bar {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(119, 106, 47);
+}
+
+body > div.nav_bar > a {
+    width: 16.6%;
+    padding: 14px 16px;
+    float: left;
+    text-align:center;
+    color: rgb(230,230,230);
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body > div.nav_bar > div.sub_nav {
+    width: 16.6%;
+    padding: 14px 16px 14px 0px;
+    float: left;
+    box-sizing: border-box;
+}
+
+body > div.nav_bar > div.sub_nav > button.stationary_menu {
+    width: 100%;
+    color: rgb(230,230,230);
+    text-align: center;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+
+body > div.nav_bar > div.sub_nav > div.sub_nav_content > a {
+    width: 100%;
+    padding: 14px 16px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.sub_nav:hover, .stationary_menu:hover {
+    background-color: rgb(119, 106, 47);
+}
+
+.sub_nav_content {
+    display: none;
+    position: absolute;
+    width: inherit;
+    background-color: rgb(119, 106, 47);
+    box-sizing: border-box;
+}
+
+.sub_nav_content a {
+    color: rgb(230, 230, 230);
+    text-decoration: none;
+}
+
+.nav_bar a:hover,.sub_nav_content a:hover {
+    background-color: rgb(206, 158, 56);
+}
+
+body > div.nav_bar > div.sub_nav:hover .sub_nav_content {
+    display: block;
+}
+
+.main_description h1{
+    color:antiquewhite;
+}
+
+.main_description{
+    padding: 70px 65px 10px 65px;
+    color:rgb(58, 53, 53);
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: relative;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    flex: 1;
+    color: paleturquoise;
+}
+
+.footer-section {
+    margin: 20px;
+    flex: 1;
+}
+
+.footer-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: wheat;
+}
+
+.footer-content {
+    font-size: 16px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.footer-section a:hover {
+    color: #f7ba04;
+    background-color: transparent;
+}
+
+.ft {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: auto;
+}
+
+.social-info {
+    font-size: 14px;
+    color: whitesmoke;
+}
+
+.social-logo {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(122, 121, 121);
+}

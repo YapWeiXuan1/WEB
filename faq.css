@@ -1,0 +1,39 @@
+.faq_title{
+    color: antiquewhite;
+    font-size: 35px;
+    padding: 50px;
+}
+
+.faq_photo{
+    width: 600px;
+    padding: auto;
+    margin-left: 200px;
+    border-radius: 150px ;
+    display: block;
+}
+
+/* Style the FAQ section */
+.faq {
+
+    padding: 30px;
+}
+
+/* Style the question buttons */
+.question {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid ;
+}
+
+/* Style the answers (hidden by default) */
+.answer {
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color:black;
+}
